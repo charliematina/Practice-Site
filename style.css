@@ -3,14 +3,24 @@
     margin: auto;
 }
 
+#main-container{
+    width: 1100px;
+    max-width: 2000px;
+    margin: 0 auto;
+    background-color: none;
+    padding-top: 120px;
+    font-family: helvetica;
+    background-color: none;
+}
 
 #navbar{
     padding: 20px; 20px;
     height: 50px;
     width: 100%;
-    background-color: lightgray;
+    background-color: white;
     position: fixed;
-    color: white;
+    color: black;
+    opacity: 0.98;
 }
 
 #navbar-container{
@@ -42,20 +52,12 @@
 .navbar-menu li{
     display: inline-block;
     list-style: none;
+    margin-right: 15px;
 }
 
 .navbar-menu li a{
     text-decoration: none;
-    color: white;
-}
-    
-    
-#main-container{
-    width: 1100px;
-    margin: 0 auto;
-    background-color: none;
-    padding-top: 160px;
-    font-family: helvetica;
+    color: black;
 }
 
 #left-container{
@@ -68,7 +70,7 @@
 
 .blog-post{
     float: left;
-    padding: 0px 5px 30px 5px;
+    padding: 0px 5px 30px 0px;
 }
 
 
@@ -82,6 +84,7 @@
 .blog-post h2{
     font-size: 20px;
     margin-bottom: 10px;
+    letter-spacing: 1px;
 }
 
 p{
@@ -90,8 +93,7 @@ p{
 }
 
 .blog-post p{
-    font-size: 10px;
-    font-weight: 100;
+    font-size: 15px;
 }
 
 #right-container{
