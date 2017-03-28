@@ -1,0 +1,10 @@
+*{
+    padding: 0px 0px 0px 0px;
+    margin: auto;
+}
+
+#main-container{
+    width: 1080px;
+    margin: 0 auto;
+    background-color: grey;
+}
