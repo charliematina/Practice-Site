@@ -1,21 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 *{
     padding: 0px 0px 0px 0px;
     margin: auto;
     max-width: 100%;
-    font-family: lato;
+    font-family: 'Lato', sans-serif;
 }
 
 * a{
-    color: white;
     text-decoration: none;
 }
 
 * a:hover{
-    color: white;
     text-decoration: none;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
+footer a{
+    color: white;
+}
+
+.blog-content a{
+    color: black;
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
+.blog-content a:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
 
 #main-container{
     width: 1100px;
@@ -23,12 +37,11 @@
     margin: 0 auto;
     background-color: none;
     padding-top: 120px;
-    font-family: lato;
     background-color: none;
 }
 
 #navbar{
-    padding: 20px; 20px;
+    padding: 20px;
     height: 50px;
     width: 100%;
     background-color: slategray;
@@ -50,15 +63,12 @@
     display: inline-block;
     margin-right: 50px;
     font-size: 25px;
-    font-family: lato-bold;
     letter-spacing: 3px;
     margin-right: 80px;
 }
 
 .navbar-menu{
     display: inline-block;
-    margin-top: auto;
-    font-family: lato;
     font-size: 15px;
     letter-spacing: 2px;
 }
@@ -92,7 +102,6 @@
 #headline-banner h2{
     color: white;
     text-align: center;
-    font-family: lato-bold;
     padding-top: 125px;
 }
 
@@ -115,18 +124,22 @@
     max-height: 210px;
     float: left;
     margin-right: 10px;
-    background-color: #f9f9f9; 
+    background-color: #f9f9f9;
+    width: 40%;
 }
 
 .blog-post h2{
     font-size: 20px;
-    font-family: lato-bold;
     margin-bottom: 10px;
     letter-spacing: 1px;
 }
 
-.blog-post p{
-    font-size: 13px;
+
+
+.blog-content{
+    font-size: 16px;
+    float: left;
+    width: 60%;
 }
 
 #right-container{
@@ -142,8 +155,8 @@
 }
 
 .right-nav-image{
-    width: 130px;
-    height: 130px;
+    width: 100px;
+    height: 100px;
     padding-right: 10px;
     float: left;  
 }
@@ -169,7 +182,6 @@ hr{
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: slategrey;
-    font-family: lato;
     color: white;
     display: inline-block;
 }
@@ -182,6 +194,7 @@ hr{
     padding-top: 10px;
     padding-bottom: 10px;
     list-style: none;
+    font-family: 'Lato', sans-serif;
 }
 
 #footer-content li{
@@ -190,7 +203,7 @@ hr{
     margin-right: 0px;
     letter-spacing: 2px;
     font-size: 12px;
-    padding: 10px
+    padding: 10px;
 }
 
 #footer-icons{
