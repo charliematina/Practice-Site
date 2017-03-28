@@ -1,11 +1,12 @@
 *{
     padding: 0px 0px 0px 0px;
     margin: auto;
+    max-width: 100%;
 }
 
 #main-container{
     width: 1100px;
-    max-width: 2000px;
+    max-width: 100%;
     margin: 0 auto;
     background-color: none;
     padding-top: 120px;
@@ -128,4 +129,36 @@ hr{
     background-color: grey;
     height: 1px;
     width: 99%;
+}
+
+#footer-container{
+    width: 100%;
+    margin-top: 25px;
+    background-color: white;
+    font-family: helvetica;
+    color: black;
+    display: inline-block;
+}
+
+#footer-content ul{
+    width: 1040px;
+    text-align: center;
+    height: auto;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    list-style: none;
+}
+
+#footer-content li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+    letter-spacing: 1.3px;
+    font-size: 12px;
+}
+
+#footer-terms{
+    padding-top: 30px;
+    opacity: 0.8
 }
